@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(184, 212, 184);
+    }
+    button{
+        text-align: center;
+    }
+    .titulo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 50px;
+        background-color: darkseagreen;
+        color: darkslategrey;
+        font-size: xx-large;
+        margin-bottom: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .frame-container{
+        display: flex;
+        justify-content: center;
+    }
+</style>
+<body>
+    <div class="titulo">Noticias</div>
+    <div class="frame-container">
+    <a id="pagPrevia" class="button"><-</a>
+    <iframe src="https://www.abc.com.py/" height="500" width="800" id="centro"></iframe>
+    <a id="pagSig" class="button"">-></a></div>
+    <script src="diario.js"></script>
+</body>
+</html>
